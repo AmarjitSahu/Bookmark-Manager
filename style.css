@@ -1,4 +1,40 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#nav {
+    background-color: rgb(9, 29, 44);
+    color: blueviolet;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background-color: rgba(0, 128, 0, 0.621);
+    color: rgb(255, 255, 255);
+    border-radius: 0.313rem;
+    border: none;
+    padding: 0.626rem;
+}
+
+@media(max-width:420px) {
+    #nav {
+        height: 7rem;
+    }
+}
+
+@media(min-width:250px) and (max-width:300px) {
+    #nav {
+        height: 9rem;
+    }
 }
