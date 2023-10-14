@@ -1,2 +1,2 @@
-# Website
-This is the source code of an amazing website.  
+# BookMark Manager
+This is the source code of a bookmark manager. 
